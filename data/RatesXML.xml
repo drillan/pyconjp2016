@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rates>
+    <Rate Symbol="EURUSD">
+        <Bid>1.11459</Bid>
+        <Ask>1.11483</Ask>
+        <High>1.11674</High>
+        <Low>1.11263</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDJPY">
+        <Bid>103.519</Bid>
+        <Ask>103.543</Ask>
+        <High>103.661</High>
+        <Low>103.048</Low>
+        <Direction>0</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="GBPUSD">
+        <Bid>1.32481</Bid>
+        <Ask>1.32508</Ask>
+        <High>1.32677</High>
+        <Low>1.3127</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDCHF">
+        <Bid>0.98626</Bid>
+        <Ask>0.98653</Ask>
+        <High>0.98861</High>
+        <Low>0.98274</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="EURCHF">
+        <Bid>1.09941</Bid>
+        <Ask>1.09966</Ask>
+        <High>1.10023</High>
+        <Low>1.09638</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="AUDUSD">
+        <Bid>0.75349</Bid>
+        <Ask>0.75372</Ask>
+        <High>0.7549</High>
+        <Low>0.75113</Low>
+        <Direction>1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDCAD">
+        <Bid>1.31103</Bid>
+        <Ask>1.31129</Ask>
+        <High>1.31311</High>
+        <Low>1.30924</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="NZDUSD">
+        <Bid>0.7268</Bid>
+        <Ask>0.72706</Ask>
+        <High>0.72783</High>
+        <Low>0.72341</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="EURJPY">
+        <Bid>115.391</Bid>
+        <Ask>115.42</Ask>
+        <High>115.475</High>
+        <Low>115.011</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="GBPJPY">
+        <Bid>137.147</Bid>
+        <Ask>137.19</Ask>
+        <High>137.361</High>
+        <Low>135.384</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="EURGBP">
+        <Bid>0.84121</Bid>
+        <Ask>0.84144</Ask>
+        <High>0.84999</High>
+        <Low>0.84021</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="CHFJPY">
+        <Bid>104.942</Bid>
+        <Ask>104.974</Ask>
+        <High>105.183</High>
+        <Low>104.737</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="GBPCHF">
+        <Bid>1.30672</Bid>
+        <Ask>1.30707</Ask>
+        <High>1.30836</High>
+        <Low>1.29105</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="EURAUD">
+        <Bid>1.47902</Bid>
+        <Ask>1.47933</Ask>
+        <High>1.48515</High>
+        <Low>1.47683</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="EURCAD">
+        <Bid>1.46136</Bid>
+        <Ask>1.4617</Ask>
+        <High>1.46377</High>
+        <Low>1.45987</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="AUDCAD">
+        <Bid>0.98791</Bid>
+        <Ask>0.98823</Ask>
+        <High>0.98886</High>
+        <Low>0.9844</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="AUDJPY">
+        <Bid>78.007</Bid>
+        <Ask>78.033</Ask>
+        <High>78.105</High>
+        <Low>77.477</Low>
+        <Direction>1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="CADJPY">
+        <Bid>78.946</Bid>
+        <Ask>78.977</Ask>
+        <High>79.036</High>
+        <Low>78.592</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="NZDJPY">
+        <Bid>75.241</Bid>
+        <Ask>75.28</Ask>
+        <High>75.363</High>
+        <Low>74.687</Low>
+        <Direction>0</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="GBPAUD">
+        <Bid>1.75794</Bid>
+        <Ask>1.75835</Ask>
+        <High>1.75937</High>
+        <Low>1.74092</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="AUDNZD">
+        <Bid>1.03651</Bid>
+        <Ask>1.03683</Ask>
+        <High>1.04027</High>
+        <Low>1.03622</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="AUDCHF">
+        <Bid>0.74319</Bid>
+        <Ask>0.7435</Ask>
+        <High>0.74407</High>
+        <Low>0.73862</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="EURNZD">
+        <Bid>1.53325</Bid>
+        <Ask>1.5336</Ask>
+        <High>1.54318</High>
+        <Low>1.53155</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="USDHKD">
+        <Bid>7.7563</Bid>
+        <Ask>7.757</Ask>
+        <High>7.75841</High>
+        <Low>7.756</Low>
+        <Direction>0</Direction>
+        <Last>04:59:34</Last>
+    </Rate>
+    <Rate Symbol="USDMXN">
+        <Bid>18.77</Bid>
+        <Ask>18.773291</Ask>
+        <High>18.8141</High>
+        <Low>18.759199</Low>
+        <Direction>0</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="GBPNZD">
+        <Bid>1.82234</Bid>
+        <Ask>1.82284</Ask>
+        <High>1.82408</High>
+        <Low>1.80649</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDSEK">
+        <Bid>8.57165</Bid>
+        <Ask>8.57357</Ask>
+        <High>8.61666</High>
+        <Low>8.5475</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="EURSEK">
+        <Bid>9.55481</Bid>
+        <Ask>9.55742</Ask>
+        <High>9.592</High>
+        <Low>9.5353</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="EURNOK">
+        <Bid>9.31597</Bid>
+        <Ask>9.32035</Ask>
+        <High>9.3536</High>
+        <Low>9.272</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="USDNOK">
+        <Bid>8.35818</Bid>
+        <Ask>8.36045</Ask>
+        <High>8.4021</High>
+        <Low>8.3054</Low>
+        <Direction>0</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="USDZAR">
+        <Bid>14.6126</Bid>
+        <Ask>14.61591</Ask>
+        <High>14.7518</High>
+        <Low>14.611</Low>
+        <Direction>1</Direction>
+        <Last>05:03:18</Last>
+    </Rate>
+    <Rate Symbol="GBPCAD">
+        <Bid>1.73694</Bid>
+        <Ask>1.73737</Ask>
+        <High>1.73896</High>
+        <Low>1.72046</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDTRY">
+        <Bid>2.95597</Bid>
+        <Ask>2.95691</Ask>
+        <High>2.96064</High>
+        <Low>2.95405</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="EURTRY">
+        <Bid>3.2975</Bid>
+        <Ask>3.29938</Ask>
+        <High>3.30765</High>
+        <Low>3.2923</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="NZDCHF">
+        <Bid>0.71671</Bid>
+        <Ask>0.71741</Ask>
+        <High>0.71791</High>
+        <Low>0.71105</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="CADCHF">
+        <Bid>0.75197</Bid>
+        <Ask>0.75267</Ask>
+        <High>0.75339</High>
+        <Low>0.74928</Low>
+        <Direction>0</Direction>
+        <Last>05:03:24</Last>
+    </Rate>
+    <Rate Symbol="NZDCAD">
+        <Bid>0.95293</Bid>
+        <Ask>0.95332</Ask>
+        <High>0.95396</High>
+        <Low>0.94857</Low>
+        <Direction>0</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="US30">
+        <Bid>18456.0</Bid>
+        <Ask>18458.0</Ask>
+        <High>18469.0</High>
+        <Low>18391.0</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:01</Last>
+    </Rate>
+    <Rate Symbol="SPX500">
+        <Bid>2176.32</Bid>
+        <Ask>2176.82</Ask>
+        <High>2178.65</High>
+        <Low>2169.07</Low>
+        <Direction>-1</Direction>
+        <Last>05:02:52</Last>
+    </Rate>
+    <Rate Symbol="NAS100">
+        <Bid>4788.7</Bid>
+        <Ask>4789.7</Ask>
+        <High>4794.6</High>
+        <Low>4770.1</Low>
+        <Direction>-1</Direction>
+        <Last>05:02:02</Last>
+    </Rate>
+    <Rate Symbol="UK100">
+        <Bid>6801.3</Bid>
+        <Ask>6802.3</Ask>
+        <High>6827.8</High>
+        <Low>6784.5</Low>
+        <Direction>1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="GER30">
+        <Bid>10663.05</Bid>
+        <Ask>10663.95</Ask>
+        <High>10680.65</High>
+        <Low>10587.05</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="ESP35">
+        <Bid>8839.0</Bid>
+        <Ask>8847.0</Ask>
+        <High>8855.0</High>
+        <Low>8718.0</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="FRA40">
+        <Bid>4485.0</Bid>
+        <Ask>4486.0</Ask>
+        <High>4492.5</High>
+        <Low>4436.5</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="HKG33">
+        <Bid>23210.0</Bid>
+        <Ask>23220.0</Ask>
+        <High>23220.0</High>
+        <Low>22825.0</Low>
+        <Direction>1</Direction>
+        <Last>04:28:49</Last>
+    </Rate>
+    <Rate Symbol="JPN225">
+        <Bid>16998.5</Bid>
+        <Ask>17008.5</Ask>
+        <High>17033.5</High>
+        <Low>16841.0</Low>
+        <Direction>1</Direction>
+        <Last>05:02:54</Last>
+    </Rate>
+    <Rate Symbol="AUS200">
+        <Bid>5424.0</Bid>
+        <Ask>5425.0</Ask>
+        <High>5432.0</High>
+        <Low>5401.0</Low>
+        <Direction>0</Direction>
+        <Last>05:01:08</Last>
+    </Rate>
+    <Rate Symbol="USOil">
+        <Bid>44.77</Bid>
+        <Ask>44.82</Ask>
+        <High>45.096</High>
+        <Low>44.634</Low>
+        <Direction>-1</Direction>
+        <Last>05:02:56</Last>
+    </Rate>
+    <Rate Symbol="UKOil">
+        <Bid>46.91</Bid>
+        <Ask>46.96</Ask>
+        <High>47.265</High>
+        <Low>46.76</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:18</Last>
+    </Rate>
+    <Rate Symbol="XAUUSD">
+        <Bid>1305.55</Bid>
+        <Ask>1305.97</Ask>
+        <High>1311.93</High>
+        <Low>1304.25</Low>
+        <Direction>0</Direction>
+        <Last>05:03:21</Last>
+    </Rate>
+    <Rate Symbol="XAGUSD">
+        <Bid>18.642</Bid>
+        <Ask>18.685</Ask>
+        <High>18.818</High>
+        <Low>18.57</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:18</Last>
+    </Rate>
+    <Rate Symbol="USDOLLAR">
+        <Bid>11986.4</Bid>
+        <Ask>11988.7</Ask>
+        <High>12015.8</High>
+        <Low>11980.7</Low>
+        <Direction>1</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDILS">
+        <Bid>3.77512</Bid>
+        <Ask>3.77907</Ask>
+        <High>3.79421</High>
+        <Low>3.7645</Low>
+        <Direction>-1</Direction>
+        <Last>05:01:06</Last>
+    </Rate>
+    <Rate Symbol="TRYJPY">
+        <Bid>34.956</Bid>
+        <Ask>35.023</Ask>
+        <High>35.06</High>
+        <Low>34.772</Low>
+        <Direction>0</Direction>
+        <Last>05:03:23</Last>
+    </Rate>
+    <Rate Symbol="USDCNH">
+        <Bid>6.68773</Bid>
+        <Ask>6.69007</Ask>
+        <High>6.6958</High>
+        <Low>6.68526</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:19</Last>
+    </Rate>
+    <Rate Symbol="NGAS">
+        <Bid>2.8575</Bid>
+        <Ask>2.8675</Ask>
+        <High>2.886</High>
+        <Low>2.8565</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:15</Last>
+    </Rate>
+    <Rate Symbol="Copper">
+        <Bid>2.08675</Bid>
+        <Ask>2.08875</Ask>
+        <High>2.09825</High>
+        <Low>2.07725</Low>
+        <Direction>-1</Direction>
+        <Last>05:03:22</Last>
+    </Rate>
+    <Rate Symbol="EUSTX50">
+        <Bid>3050.0</Bid>
+        <Ask>3051.0</Ask>
+        <High>3056.5</High>
+        <Low>3021.5</Low>
+        <Direction>1</Direction>
+        <Last>05:03:18</Last>
+    </Rate>
+    <Rate Symbol="Bund">
+        <Bid>167.08</Bid>
+        <Ask>167.11</Ask>
+        <High>167.32</High>
+        <Low>166.94</Low>
+        <Direction>1</Direction>
+        <Last>05:03:16</Last>
+    </Rate>
+</Rates>

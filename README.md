@@ -4,7 +4,7 @@ Start Python for Finance Data Analysis
 [Slide](http://TBD)
 
 ---
-## [Case1-1](Case1-1_2.xlsm): Implement Monte-Carlo Simulation in Excel Function
+## Case1-1: Implement Monte-Carlo Simulation in Excel Function
 
 1. Input formula into a cell to generate random number with geometric Brownian motion(it satisfies the following stochastic differential equation)
 
@@ -19,7 +19,7 @@ Start Python for Finance Data Analysis
 5. Visualize
 
 ---
-## [Case1-2](Case1-1_2.xlsm): Implement Monte-Carlo Simulation in VBA
+## Case1-2: Implement Monte-Carlo Simulation in VBA
 
 * Very long code(especially histogram)
 
@@ -111,7 +111,7 @@ Start Python for Finance Data Analysis
 ## [Case3-1](Case3-1.ipynb): Create own magic command
 
 * Search stock price by "line magic", and output it to IPython.display.Iframe
-* Paste various format data into notebook cell by "cell magic", and convert into pandas DataFrame
+* Paste various format data into notebook cell by "cell magic", and convert into pandas DataFrame
 * Save often used command with .py extension, and call it by %load_ext
 
 ---

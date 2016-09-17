@@ -28,7 +28,7 @@ Start Python for Finance Data Analysis
 * Very slow
 
 ---
-## [Case1-3](Case1-3.ipynb): Implement Monte-Carlo Simulation in Python
+## [Case1-3](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case1-3.ipynb): Implement Monte-Carlo Simulation in Python
 
 * Very short code(especially histogram)
 
@@ -37,7 +37,7 @@ Start Python for Finance Data Analysis
 * Faster than VBA
 
 ---
-## [Case-1-4](Case1-4.ipynb): Correlation between Economic indicator and exchange rate and stock price
+## [Case-1-4](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case1-4.ipynb): Correlation between Economic indicator and exchange rate and stock price
 
 * Open Economic indicator & Stock price Excel file @ vdata.Nikkei.com through pandas 
   * Economic indicator
@@ -49,7 +49,7 @@ Start Python for Finance Data Analysis
 * Visualize by seaborn
 
 ---
-## [Case1-5](Case1-5.ipynb): Relationship ETF/J-REIT purchases and stock prices
+## [Case1-5](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case1-5.ipynb): Relationship ETF/J-REIT purchases and stock prices
 
 * Open Excel files from BOJ site using pandas
 
@@ -81,7 +81,7 @@ Start Python for Finance Data Analysis
 * Input multiple return values into Excel range(multiple cells)
 
 ---
-## [Case2-1](Case2-1_2.ipynb): Use DatetimeIndex
+## [Case2-1](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-1_2.ipynb): Use DatetimeIndex
 
 * Very useful pandas.date_range for creating continuous data
 * Advantage of DatetimeIndex :
@@ -92,7 +92,7 @@ Start Python for Finance Data Analysis
   * Handle "missing value"
 
 ---
-## [Case2-2](Case2-1_2.ipynb): Create OHLC data and covert time range
+## [Case2-2](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-1_2.ipynb): Create OHLC data and covert time range
 
 * Not so easy to create OHLC
 * Convert time-series data into frequency by .resample() method
@@ -101,21 +101,21 @@ Start Python for Finance Data Analysis
 * Use techniques to convert OHLC data into OHLC data
 
 ---
-## [Case2-3](Case2-3.ipynb): Compute the last trading day by CustomBusinessDay class
+## [Case2-3](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-3.ipynb): Compute the last trading day by CustomBusinessDay class
 
 * Import yaml format holiday data
 * Generate the 2nd Friday of the month by pandas.date_range(freq=‘WOM-2FRI‘)
 * Skip holidays when calculate using CustomBusinessDay class
 
 ---
-## [Case3-1](Case3-1.ipynb): Create own magic command
+## [Case3-1](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case3-1.ipynb): Create own magic command
 
 * Search stock price by "line magic", and output it to IPython.display.Iframe
 * Paste various format data into notebook cell by "cell magic", and convert into pandas DataFrame
 * Save often used command with .py extension, and call it by %load_ext
 
 ---
-## [Case3-2](Case3-2.ipynb): Use ipywidgets
+## [Case3-2](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case3-2.ipynb): Use ipywidgets
 
 * Easy to implement UI by ipywidges.interact decorator
 * Autogenerate UI controls for function argument

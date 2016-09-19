@@ -1,7 +1,26 @@
 # pyconjp2016
 Start Python for Finance Data Analysis  
+
 [PyCon JP 2016 Talk#024](https://pycon.jp/2016/ja/schedule/presentation/24/) driller@patraqushe  
-[Slide](http://TBD)
+
+* [Slide]  
+    TBD
+
+* [Docker image](https://hub.docker.com/r/driller/docker-pyconjp2016/)  
+
+    ### Usage Example
+
+    * Linux
+  ```
+  git clone https://github.com/drillan/pyconjp2016.git
+  docker run -d --name pycon -p 8888:8888 -v $PWD/pyconjp2016:/notebooks driller/docker-pyconjp2016
+  ```
+
+  * Windows
+  ```
+  git clone https://github.com/drillan/pyconjp2016.git
+  docker run -d --name pycon -p 8888:8888 -v %CD%/pyconjp2016:/notebooks driller/docker-pyconjp2016
+  ```
 
 ---
 ## Case1-1: Implement Monte-Carlo Simulation in Excel Function

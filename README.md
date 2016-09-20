@@ -4,7 +4,8 @@ Start hacking finance data with Python
 [PyCon JP 2016 Talk#024](https://pycon.jp/2016/ja/schedule/presentation/24/) driller@patraqushe  
 
 * Slide  
-    TBD
+    en: https://www.slideshare.net/secret/sOATcrXj9gB7MG  
+    ja: TBD
 
 * [Docker image](https://hub.docker.com/r/driller/docker-pyconjp2016/)  
     This image doesn't include packages related to Excel.
@@ -26,7 +27,7 @@ Start hacking finance data with Python
 ---
 ## Case1-1: Implement Monte-Carlo Simulation in Excel Function
 
-1. Input formula into a cell to generate random number with geometric Brownian motion(it satisfies the following stochastic differential equation)
+1. Input formula into a Cell to generate random number with geometric Brownian motion(it satisfies the following stochastic differential equation)
 
     ![$$dS_t = \mu S_t\,dt + \sigma S_t\,dB_t$$](https://wikimedia.org/api/rest_v1/media/math/render/svg/22a084f84c78d0ae6983fd7283004f412f42757b)
 
@@ -34,16 +35,14 @@ Start hacking finance data with Python
 
 3. Classify the result into bin
 
-4. Count the number of each bin 
-
-5. Visualize
+4. Count the number of each bins then visualize 
 
 ---
 ## Case1-2: Implement Monte-Carlo Simulation in VBA
 
 * Very long code(especially histogram)
 
-* Need to change all corresponding cell addresses for changing sheet layout( can handle by “name manager” partially)
+* When changing the layout of an Excel sheet, you have to change all the addresses of related cells(can handle by "name manager" partially)
 
 * Very slow
 
@@ -52,7 +51,7 @@ Start hacking finance data with Python
 
 * Very short code(especially histogram)
 
-* No need to consider data store location
+* No need to consider data storage
 
 * Faster than VBA
 
@@ -87,7 +86,7 @@ Start hacking finance data with Python
 * xlwings features
   * Calling Python from Excel
   * Put pandas DataFrame data into Excel cells
-  * Using a syntax that is close to VBA
+  * Uses syntax close to VBA
 
 * Get stock prices using pandas_datareader
 
@@ -96,50 +95,51 @@ Start hacking finance data with Python
 
 * Windows only
 * Install add-in
-* Call function which is written by python as Excel function 
-* Fetch Excel range(multiple cells) as array data(pandas or Numpy) in UDF function
-* Input multiple return values into Excel range(multiple cells)
+* Call function written in Python like an Excel function   
+* Fetch Excel Range(multiple cells) as array data(pandas or Numpy) in UDF function
+* Input multiple return values into Excel Range(multiple cells)
 
 ---
 ## [Case2-1](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-1_2.ipynb): Use DatetimeIndex
 
-* Very useful pandas.date_range for creating continuous data
+* pandas.date_range is very useful to create continuous data  
 * Advantage of DatetimeIndex :
-  * Specify various types
+  * Specify various types when selecting a location  
     * datetime.date, datetime.datetime, datetime.time, str, int and so on…
-  * Handle uncertain notation(similar to parsing by dateutil.parser)
-  * Slice into year, month etc
-  * Handle "missing value"
+  * Able to parse most known formats(similar to parsing by dateutil.parser)
+  * Allows slicing into year, month, etc
+  * Handles missing values  
 
 ---
 ## [Case2-2](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-1_2.ipynb): Create OHLC data and covert time range
 
-* Not so easy to create OHLC
-* Convert time-series data into frequency by .resample() method
-* .resample() performing resampling operations during frequency conversion
+* Not that easy to create OHLC
+* Convert time-series data into frequencies using the .resample() method
+* .resample() performs resampling operations during frequency conversion
   * Daily, Weekly, 30minute, 1hour, Quarter, etc
-* Use techniques to convert OHLC data into OHLC data
+* There are tips to convert between different OHLC data representations
 
 ---
 ## [Case2-3](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case2-3.ipynb): Compute the last trading day by CustomBusinessDay class
 
-* Import yaml format holiday data
-* Generate the 2nd Friday of the month by pandas.date_range(freq=‘WOM-2FRI‘)
-* Skip holidays when calculate using CustomBusinessDay class
+* Import holiday data from YAML file  
+* Select the 2nd friday of evey month using pandas.date_range(feq='WOM-2FRI')  
+* Skip holidays using the CustomBusinessDay class  
 
 ---
 ## [Case3-1](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case3-1.ipynb): Create own magic command
 
-* Search stock price by "line magic", and output it to IPython.display.Iframe
-* Paste various format data into notebook cell by "cell magic", and convert into pandas DataFrame
-* Save often used command with .py extension, and call it by %load_ext
+* Search stock price using "line magic", and output it to IPython.display.Iframe  
+* Paste data in various formats into notebook cells using "cell magic" , and convert it into a pandas DataFrame  
+* Save frequently used commands to a file and re-use them using %load_ext  
 
 ---
-## [Case3-2](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case3-2.ipynb): Use ipywidgets
+## [Case3-2](http://nbviewer.jupyter.org/github/drillan/pyconjp2016/blob/master/Case3-2.ipynb): ipywidgets is the easiest way to create a UI  
 
-* Easy to implement UI by ipywidges.interact decorator
-* Autogenerate UI controls for function argument
+* Easy to implement a UI using the ipywidgets.interact decorator  
+* Automatically creates UI controls for function arguments  
   * bool: check box 
   * Int: slider
-* Create interactive visualization of moving average and Bollinger-Bands
+* Creates interactive visualization of moving averages and Bollinger-Bands  
+
 

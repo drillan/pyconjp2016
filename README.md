@@ -25,6 +25,14 @@ Start hacking finance data with Python
   ```
 
 ---
+# Sample code and files
+
+* Some code is redundant due to:  
+    * Python 2/3 support  
+    * Offline mode  
+* No license limitations   
+
+---
 ## Case1-1: Implement Monte-Carlo Simulation in Excel Function
 
 1. Input formula into a Cell to generate random number with geometric Brownian motion(it satisfies the following stochastic differential equation)

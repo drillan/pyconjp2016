@@ -1,22 +1,23 @@
 # pyconjp2016
-Start Python for Finance Data Analysis  
+Start hacking finance data with Python  
 
 [PyCon JP 2016 Talk#024](https://pycon.jp/2016/ja/schedule/presentation/24/) driller@patraqushe  
 
-* [Slide]  
+* Slide  
     TBD
 
 * [Docker image](https://hub.docker.com/r/driller/docker-pyconjp2016/)  
+    This image doesn't include packages related to Excel.
 
     ### Usage Example
 
-    * Linux
+    * Linux or docker-machine(Docker Toolbox)
   ```
   git clone https://github.com/drillan/pyconjp2016.git
   docker run -d --name pycon -p 8888:8888 -v $PWD/pyconjp2016:/notebooks driller/docker-pyconjp2016
   ```
 
-  * Windows
+  * Docker for Windows
   ```
   git clone https://github.com/drillan/pyconjp2016.git
   docker run -d --name pycon -p 8888:8888 -v %CD%/pyconjp2016:/notebooks driller/docker-pyconjp2016

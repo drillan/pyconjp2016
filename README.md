@@ -4,8 +4,8 @@ Start hacking finance data with Python
 [PyCon JP 2016 Talk#024](https://pycon.jp/2016/ja/schedule/presentation/24/) driller@patraqushe  
 
 * Slide  
-    en: https://www.slideshare.net/secret/sOATcrXj9gB7MG  
-    ja: TBD
+    en: http://www.slideshare.net/drillan/pycon-jp-2016-talk054-en  
+    ja: http://www.slideshare.net/drillan/pycon-jp-2016-talk024-ja
 
 * [Docker image](https://hub.docker.com/r/driller/docker-pyconjp2016/)  
     This image doesn't include packages related to Excel.
